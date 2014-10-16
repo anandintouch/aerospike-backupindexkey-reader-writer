@@ -1,0 +1,6 @@
+# Java Backup file digest key reader Script.
+#
+# Build with maven before running this script.
+# mvn package
+
+java -cp target/aerospike-backupindexkey-uploader-*-jar-with-dependencies.jar com.aerospike.indexkeyreaderwriter.BackupFileReader $*
