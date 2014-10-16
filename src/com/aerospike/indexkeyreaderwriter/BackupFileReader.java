@@ -29,11 +29,9 @@ public class BackupFileReader {
 	public boolean debug;
 	int count=0;
 	private  static String filesFromDir ="/Users/anandprakash/sourcecode/aerospike-backupkey_reader_writer/src/main/java/com/aerospike/backupkey_reader_writer";
-	//private FileProcessor fileProcessorObj = new FileProcessor();
 	
 	public BackupFileReader(String[] commandLineArgs) throws Exception {
 		Options options = new Options();
-		options.addOption("h", "hosts", true, "Set the Aerospike host node.");
 		options.addOption("BKF", "backupFilesPath", true, "Backup files path to read the digest/index keys.");
 		options.addOption("NF", "newKeyFilePath", true, "New file with digest/index Keys from all the backup files.");
 		
