@@ -11,11 +11,11 @@ This repository contains "aerospike-backupindexkey-reader-writer" tool which can
     mvn clean install
  2. Sample command line argument is mentioned below
 
-> ./run_indexkeyloader -BKF [backup files path] -NF [new file path]
+> ./run_indexkeyloader -BKF [backup files path] -NF [new file path with file name]
 
 ***Example:***
 
-    ./run_indexkeyloader -BKF /Users/anandprakash/Documents/Anand/project/Mytools -NF /Users/anandprakash/Documents/Anand/project/Mytools/IndexKeyFile.txt
+    ./run_indexkeyloader -BKF /Users/anandprakash/sourcecode/aerospike-backupindexkey-reader-writer/src/com/aerospike/samplebkpfiles -NF /Users/anandprakash/sourcecode/aerospike-backupindexkey-reader-writer/src/com/aerospike/samplebkpfiles/IndexKeysFile.txt
 
 where **BKF** is followed by backup files path(directory)
 and   **NF**  is followed by the path of the new Index keys file to be created
