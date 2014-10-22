@@ -28,7 +28,7 @@ import org.apache.commons.cli.PosixParser;
 public class BackupFileReader {
 	public boolean debug;
 	int count=0;
-	private  static String filesFromDir ="/Users/anandprakash/sourcecode/aerospike-backupkey_reader_writer/src/main/java/com/aerospike/backupkey_reader_writer";
+	private  static String filesFromDir ;
 	
 	public BackupFileReader(String[] commandLineArgs) throws Exception {
 		Options options = new Options();
